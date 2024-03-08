@@ -15,8 +15,8 @@ main:
   - title: "Blog Posts"
     url: /year-archive/
     
-  - title: "CV"
-    url: /cv/
+  - title: "Download CV"
+    url: /files/Bryant_Avila_CV_March_2024.pdf
     
   - title: "Guide"
     url: /markdown/
