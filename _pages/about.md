@@ -7,8 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-<span style="font-size: smaller;">"*In God we trust; all others must bring data.*”
--- W. Edwards Deming (American statistician).</span>
+<span style="font-size: smaller;">"*In God we trust; all others must bring data.*”<br>-- W. Edwards Deming (American statistician).</span>
 
 Research Interests
 ======
