@@ -60,7 +60,7 @@ author:
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
-  soundcloud       : # Username
+  soundcloud       : "kryogenica"
   steam            : # Username
   telegram         : # URL
   tumblr           : # Username
@@ -69,7 +69,7 @@ author:
   weibo            : # Username
   wikipedia        : # Username
   xing             : # Username
-  youtube          : "watch?v=dQw4w9WgXcQ"
+  youtube          : #"watch?v=dQw4w9WgXcQ"
   zhihu            : # URL
 
 
