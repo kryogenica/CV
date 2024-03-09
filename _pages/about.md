@@ -11,11 +11,11 @@ redirect_from:
 
 Research Interests
 ======
-* Finding patterns in big datasets.
+* Data science, data analysis, and data reporting.
 * Machine learning, specially graph neural networks.
-* Simulating systems through ordinary differential equations.
 * Reinforcement learning algorithms to optimize traffic flow.
-* Infereing network structure from its dynamics 🕸️ &larr 〰️
+* Simulating dynamical systems through ordinary differential equations.
+* Infereing network structure from its dynamics and vise versa 🕸️ &larr; 〰️
 
 Getting started
 ======
