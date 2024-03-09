@@ -7,7 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-In God we trust; all others must bring data” -- W. Edwards Deming (American statistician).
+<span style="font-size: smaller;">"*In God we trust; all others must bring data.*” -- W. Edwards Deming (American statistician).</span>
+
+"*In God we trust; all others must bring data.*” -- W. Edwards Deming (American statistician).
 
 A data-driven personal website
 ======
