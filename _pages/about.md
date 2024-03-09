@@ -15,8 +15,8 @@ Research Interests
 * Data science, data analysis, and data reporting.
 * Machine learning, specially graph neural networks.
 * Reinforcement learning algorithms to optimize traffic flow.
-* Simulating dynamical systems through ordinary differential equations.
-* Infereing network structure from its dynamics and vise versa 🕸️ &larr; 〰️
+* Simulating complex systems / physics through equations.
+* Infereing network structure from its dynamics 🕸️ &harr; 〰️.
 
 Getting started
 ======
