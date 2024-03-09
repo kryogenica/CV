@@ -15,7 +15,7 @@ Research Interests
 * Machine learning, specially graph neural networks.
 * Simulating systems through ordinary differential equations.
 * Reinforcement learning algorithms to optimize traffic flow.
-* Infereing network structure from its dynamics 🕸️<-〰️
+* Infereing network structure from its dynamics 🕸️ &larr 〰️
 
 Getting started
 ======
