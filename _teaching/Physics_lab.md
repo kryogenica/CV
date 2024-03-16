@@ -2,7 +2,7 @@
 title: "Physics Laboratory Teaching 2019 - 2023"
 collection: teaching
 type: "For Biomedical and Engineering majors"
-permalink: /teaching/2014-spring-teaching-1
+permalink: /teaching/Physics_lab
 venue: "City College of New York"
 date: 
 location: "New York, NY"
