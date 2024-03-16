@@ -4,7 +4,7 @@ collection: teaching
 type: "For Biomedical and Engineering majors"
 permalink: /teaching/2014-spring-teaching-1
 venue: "City College of New York"
-date: "2019-01-27 2023-05-15"
-location: "City, Country"
+date: "January 2019 - May 2023"
+location: "New York, NY"
 ---
-Taught Biodemical students and Engineering majors introductory physics concepts through elbarote lab setup, from wave dynamics, electronics and ligh matter properties.
+Taught Biodemical students and Engineering majors in a majorly underrepresented school introductory physics concepts through elbarote lab setup, from wave dynamics, electronics and ligh matter properties.
