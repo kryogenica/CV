@@ -1,20 +1,10 @@
 ---
-title: "Teaching experience 1"
+title: "Physics Laboratory Teaching"
 collection: teaching
-type: "Undergraduate course"
+type: "For Biomedical and Engineering majors"
 permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
+venue: "City College of New York"
+date: "2019-01-27 2023-05-15"
 location: "City, Country"
 ---
-
-This is a description of a teaching experience. You can use markdown like any other post.
-
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
+Taught Biodemical students and Engineering majors introductory physics concepts through elbarote lab setup, from wave dynamics, electronics and ligh matter properties.
