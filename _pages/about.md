@@ -35,7 +35,7 @@ Work experience
     * Applied advanced concepts of graph theory to study the complex network of a worm's brain, leading to the identification of key structures responsible for synchronization and writing one of the first papers on how a particular type of network symmetry may lurk in the brain's structure. Calculations done via NetworkX and Pandas.
     * Developed an open-source GUI Matlab software toolkit for analyzing and visualizing time series neural dynamics through which the previous hypotheses were further supported.
   * **Project: A/B testing of optimal network repairing algorithms with statistical support:**
-    * Applied dozens of statistical measuring techniques on the dataset collected above to capture relational information, transformed each into a unique developed data structure, implemented various community detection algorithms on each, producing a plethora of options to be tested... **(more in CV)**
+    * Applied dozens of statistical measuring techniques on the dataset collected above to capture relational information, transformed each into a unique developed data structure, implemented various community detection algorithms on each, producing a plethora of options to be tested... [**(more in CV)**](/files/Bryant_Avila_CV_March_2024.pdf)
 
 * Kcore Analytics, Data Analyst (Nov 2023 – April 2024)
   * Built new calls not offered in the US census bureau python library via their API to retrieve demographic data on multiple resolution levels, stored data into custom SQL tables prior to GeoPandas calculations. Created a Selenium based web crawler tailored towards specific websites for data extraction.
