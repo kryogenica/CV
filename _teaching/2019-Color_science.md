@@ -12,4 +12,6 @@ Served as the teaching assitant for multiple sections for SC 332 - Color and Lig
 In this course the basic principles of color science, including color measurement and color reproduction, are examined.
 Mainly focused on aiding students to use science equipment such as colorimeter, vis-nir spectrometer among others to translate theory into practice.
 
-All labs can be found in this [link](https://physicslabs.ccnysites.cuny.edu/).
+<br/><image src="/images/20231004_152013.jpg">
+<br/><image src="/images/Fully_basic.jpg">
+<br/><image src="/images/VideoCapture_20230313-201842.jpg">
