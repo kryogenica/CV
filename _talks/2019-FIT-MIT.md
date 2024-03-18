@@ -2,7 +2,7 @@
 title: "FIT Emerging Technology: Generative design for furniture design"
 collection: talks
 type: "Talk"
-permalink: /talks/2014-03-01-talk-3
+permalink: /talks/2019-FIT-MIT
 venue: "Start of School Year Faculty Convocation "
 date: 2019-03-01
 location: "New York, NY"
