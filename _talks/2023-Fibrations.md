@@ -2,7 +2,7 @@
 title: "Fibration symmetries reveal neuronal synchronizations in the C.elegans connectome"
 collection: talks
 type: "Poster Presentation"
-permalink: /talks/2012-03-01-talk-1
+permalink: /talks/2023-Fibrations
 venue: "9th Annual Brain Initiative"
 date: 2023-06-12
 location: "Bethesda, Maryland"
