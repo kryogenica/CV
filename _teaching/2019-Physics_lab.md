@@ -7,4 +7,4 @@ venue: "City College of New York"
 date: 2023-05-10
 location: "New York, NY"
 ---
-Taught Biodemical and Engineering undergraduate majors in a majorly underrepresented school introductory physics concepts through elbarote lab setups, from wave dynamics, electronics and ligh matter properties.
+Taught underrepresented biodemical and engineering undergraduate majors introductory physics concepts through elbarote lab setups and in class work, from wave dynamics, electronics and ligh matter properties.
