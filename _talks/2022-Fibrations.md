@@ -2,7 +2,7 @@
 title: "From symmetric building blocks to neural synchronization in the connectome"
 collection: talks
 type: "Poster Presentation"
-permalink: /talks/2014-02-01-talk-2
+permalink: /talks/2022-Fibrations
 venue: "8th Annual Brain Initiative"
 date: 2022-06-22
 location: "Online, Covid"
