@@ -1,5 +1,5 @@
 ---
-title: "MIT + FIT: Generative design for footware deesign"
+title: "MIT + FIT: Generative design for footware design"
 collection: teaching
 type: "Workshop"
 permalink: /teaching/2019-FIT-MIT
