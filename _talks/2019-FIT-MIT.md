@@ -14,3 +14,6 @@ For talk visuals please follow this [link](https://docs.google.com/presentation/
 
 A rendering of one of the side panels designed can be seen below:
 <script src="https://embed.github.com/view/3d/kryogenica/kryogenica.github.io/master/images/simplify_Ml-panel.stl"></script>
+<br/><image src="/images/ffff.jpg">
+<br/><image src="/images/gd-side-panel.jpg">
+<br/><image src="/images/Gd-tabletop_2019-Feb.png">
