@@ -1,6 +1,6 @@
 ---
 title: "Sentimental analysis for stock market predictions📈📉"
-excerpt: "Used tweeter feeds and support vector machines for stock prediction. <br/><img src='/images/Tweet-polarity.png'>"
+excerpt: "Used tweeter feeds and support vector machines for stock prediction. <br/><img src='/images/Tweet-polarity.png' width='50%'>"
 collection: portfolio
 ---
 
