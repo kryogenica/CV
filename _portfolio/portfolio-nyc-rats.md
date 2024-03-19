@@ -8,5 +8,5 @@ The project aims to develop a system to predict and manage rat infestations in M
 
 Libarires used: Google Drive, Math, NumPy, Pandas, Matplotlib, Folium, GeoPandas, Pyproj, Contextily, Seaborn, Shapely, NetworkX, Datetime, Scipy, Branca, Plotly, Sklearn Linear Model, Sklearn Model Selection, Sklearn Metrics, Sklearn SVM, Sklearn Decomposition, Sklearn Preprocessing, Sklearn Pipeline.
 
-Please see the google colab hosting this project following this [link](https://colab.research.google.com/drive/1OVCfFlJfKdSnQIGK9WsS90p81PlkzXSR?usp=sharing).
+[Repository](https://colab.research.google.com/drive/1OVCfFlJfKdSnQIGK9WsS90p81PlkzXSR?usp=sharing).
 
