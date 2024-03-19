@@ -11,6 +11,6 @@ Challenges faced include data limitations and the need for more sophisticated al
 The ultimate goal is to understand the relationship between public sentiment and market trends to inform investment strategies.
 
 [Project presentation](https://docs.google.com/presentation/d/1RdrKgfb9pMf4qdWB7XruEMABBWzuk07lzKX2olG92Qw/edit#slide=id.p3).
-[Repository](https://github.com/kryogenica/ECE6254)
+[Repository](https://github.com/kryogenica/ECE6254).
 
 python libarires: alpha_vantage, gdax, tzlocal, csv, json, sklearn, pandas, os, numpy, matplotlib. 
