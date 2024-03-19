@@ -1,6 +1,6 @@
 ---
 title: "NYC rat infestation predictor🌆 🐀"
-excerpt: "The project developed a system to predict and manage rat infestations in Manhattan using data from the NYC Open Data. <br/><img src='/images/rat_predictor.png'>"
+excerpt: "The project developed a system to predict and manage rat infestations in Manhattan using data from the NYC Open Data. <br/><img src='/images/rat_predictor.png' width='50%'>"
 collection: portfolio
 ---
 
