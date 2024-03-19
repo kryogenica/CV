@@ -9,6 +9,6 @@ Used Gdax API (Coinbase) to gather historical data on ethereum. Produced bolling
 Used the latter to see the correlations in times series data points immedietly before a spike in price change.
 Predicted the moving of prices using RBF kernel within a Support Vector Machine.
 
-[Repository]([https://github.com/kryogenica/ECE6254](https://github.com/kryogenica/Crypto-market)).
+[Repository](https://github.com/kryogenica/Crypto-market).
 
 python libarires: alpha_vantage, gdax, tzlocal, csv, json, sklearn, pandas, os, numpy, matplotlib. 
