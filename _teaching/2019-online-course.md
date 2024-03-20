@@ -1,5 +1,5 @@
 ---
-title: "Color and Light Science 2019 - 2023"
+title: "Step by step calculus 1: Learn from scratch. Online Course."
 collection: teaching
 type: "Online course"
 permalink: /teaching/2019-online-course
