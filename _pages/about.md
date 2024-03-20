@@ -26,7 +26,7 @@ Education
 * PhD in Physics - Graduate Center of the City University of New York - Summer 2024
   * Advisors: [Hernan Makse](https://hmakse.ccny.cuny.edu/), [Manuel Zimmer](https://www.imp.ac.at/groups/manuel-zimmer)
 * MPhil in Physics - Graduate Center of the City University of New York - Feb 2023
-  * Advisors: [Hernan Makse](https://hmakse.ccny.cuny.edu/), [Manuel Zimmer](https://www.imp.ac.at/groups/manuel-zimmer)  
+  * Advisors: [Hernan Makse](https://hmakse.ccny.cuny.edu/), [David Phillips](https://www.usna.edu/Users/math/dphillip/)
 * B.S. in Physics - City College of New York - Feb 2016
   * Cum Laude and Research honors
   * Advisors: [Carlos Meriles](https://cmeriles.ccny.cuny.edu/), [Brain Tiburzi](https://www.gc.cuny.edu/people/brian-c-tiburzi)  
