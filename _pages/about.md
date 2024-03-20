@@ -17,6 +17,10 @@ Research Interests
 * Simulating complex systems / physics through equations.
 * Infereing network structure from its dynamics 🕸️ &harr; 〰️.
 
+Award
+======
+Secured a prestigious [SBIR Phase I grant](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2309896) from the National Science Foundation along with my PhD Principal Investigator for pioneering an artificial intelligence system to enhance transparency and predict trends in democratic elections.
+
 Education
 ======
 * PhD in Physics - Graduate Center of the City University of New York - Summer 2024
