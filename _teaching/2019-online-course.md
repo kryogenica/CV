@@ -3,9 +3,9 @@ title: "Step by step calculus 1: Learn from scratch. Online Course."
 collection: teaching
 type: "Online course"
 permalink: /teaching/2019-online-course
-venue: "Udemy (website)"
+venue: "Udemy"
 date: 2019-01-01
-location: "New York, NY"
+location: "(website)"
 ---
 
 Created a unique neural network architecture and tested its performance against other architectures
