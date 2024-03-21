@@ -32,7 +32,7 @@ Education
   * Advisors: [Carlos Meriles](https://cmeriles.ccny.cuny.edu/), [Brain Tiburzi](https://www.gc.cuny.edu/people/brian-c-tiburzi)  
 
 Work experience
-------
+======
 * Graduate Center of CUNY, PhD in Physics (Sept 2019 - Summer 2024)
   * **Project: Bridging the gap between physics, network theory and neuro-science:**
     * Collaborated with a multidisciplinary and international team to guide their sourcing of neural activity signals by analyzing their data resulting in a pipeline leading to a prime dataset providing the basis for high quality research.
@@ -50,14 +50,14 @@ Work experience
   * Collaborated with faculty in pioneering the development of sustainable materials, including bacterial leather, alginate & mushroom fabrics, and mycelium wood. Conducted detailed characterization of biological samples using Scanning Electron Microscope (SEM), and diligently reported findings relevant for further advancement... [**(more in CV)**](/files/Bryant_Avila_CV_March_2024.pdf)
 
 Skills
-------
+======
 * Coding
   * Python (NumPy, SciPy, Pandas, SKlearn, Matplotlib, TensorFlow, PyTorch, Geopandas, NetworkX, Selenium, GUROBI), hugging face, R, C shell, C++, Fortran, Matlab, SQL, LateX, Labview, Relion, Fusion 360, Solidworks, GitHub, ArcGIS, AutoCAD, WordPress and Salesforce.
 * Soft skills
   * Team management, market research, leads into clients, tutoring / teaching, collaborations, public speaking, project managment,problem-solving, attention to detail, quick learner.
 
 Publications
-------
+======
 * Khayat R, Avila B, et al. [“Porcine circovirus 2 uses a multitude of weak binding sites to interact with heparan sulfate, and the interactions do not follow the symmetry of the capsin.”](https://jvi.asm.org/content/93/6/e02222-18)  Journal of Virology. 2019.
 * Khayat R, Avila B, et al. [“Cryo-electron microscopy structure of the 70S ribosome from Enterococcus faecalis.”](https://www.nature.com/articles/s41598-020-73199-6) Nature. 2020.
 * Avila B, et al. [“Fibration symmetries and cluster synchronization in the Caenorhabditis elegans connectome.”](https://arxiv.org/abs/2305.19367) PLOS One 2024.
