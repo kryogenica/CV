@@ -20,3 +20,4 @@ Read more: [A machine with incredible magnifying properties](https://news.fitnyc
 <br/><image src="/images/salt0002.tiff">
 <br/><image src="/images/sponge0006.tiff">
 <br/><image src="/images/tumeric0002.tiff">
+
