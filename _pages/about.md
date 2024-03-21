@@ -39,14 +39,14 @@ Work experience
     * Applied advanced concepts of graph theory to study the complex network of a worm's brain, leading to the identification of key structures responsible for synchronization and writing one of the first papers on how a particular type of network symmetry may lurk in the brain's structure. Calculations done via NetworkX and Pandas.
     * Developed an open-source GUI Matlab software toolkit for analyzing and visualizing time series neural dynamics through which the previous hypotheses were further supported.
   * **Project: A/B testing of optimal network repairing algorithms with statistical support:**
-    * Applied dozens of statistical measuring techniques on the dataset collected above to capture relational information, transformed each into a unique developed data structure, implemented various community detection algorithms on each, producing a plethora of options to be tested... [**(more in CV)**](/files/Bryant_Avila_CV_March_2024.pdf)
+    * Applied dozens of statistical measuring techniques on the dataset collected above to capture relational information, transformed each into a uniquely developed data structure, implemented various community detection algorithms on each, producing a plethora of options to be tested... [**(more in CV)**](/files/Bryant_Avila_CV_March_2024.pdf)
 
 * Kcore Analytics, Data Analyst (Nov 2023 – April 2024)
   * Built new calls not offered in the US census bureau python library via their API to retrieve demographic data on multiple resolution levels, stored data into custom SQL tables prior to GeoPandas calculations. Created a Selenium based web crawler tailored towards specific websites for data extraction.
   * Implemented pre-trained transformers to do sentiment analysis on retrieved tweets, incorporating results with aforementioned population data to infer election outcomes via the training of multiple convolutional graph neural network models via PyTorch.
 
 * Fashion Institute of Technology, Principal Lab Technician (Feb 2018 – Feb 2024)
-  * Administered a yearly budget of over $100K, ensuring efficient allocation towards upgrades, chemical and equipment purchasing, and training initiatives. Successfully captured internal funds to spearhead the integration of 3D printing technology in the classroom, enhancing the practical learning experience for students. Led and managed teqam of staff members.
+  * Administered a yearly budget of over $100K, ensuring efficient allocation towards upgrades, chemical and equipment purchasing, and training initiatives. Successfully captured internal funds to spearhead the integration of 3D printing technology in the classroom, enhancing the practical learning experience for students. Led and managed team of staff members.
   * Collaborated with faculty in pioneering the development of sustainable materials, including bacterial leather, alginate & mushroom fabrics, and mycelium wood. Conducted detailed characterization of biological samples using Scanning Electron Microscope (SEM), and diligently reported findings relevant for further advancement... [**(more in CV)**](/files/Bryant_Avila_CV_March_2024.pdf)
 
 Skills
