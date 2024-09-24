@@ -2,6 +2,7 @@
 title: "Contextual Search: A RAG Tool"
 excerpt: "Vaguely recall a piece of text from a file, simply describe it and find it! <br/><img src='/images/Scene_contextual_search.png' width='50%'>"
 collection: portfolio
+order: 1
 ---
 
 Ever found yourself vaguely recalling a piece of text from a document but struggling to find it through traditional keyword searches? Imagine a tool where you can describe what you remember (a brief description, summary, or paraphrase) and instantly retrieve the most relevant pieces of text. That's exactly what my new project, the 𝗖𝗼𝗻𝘁𝗲𝘅𝘁𝘂𝗮𝗹 𝗦𝗲𝗮𝗿𝗰𝗵 𝗧𝗼𝗼𝗹, does, and it's now available on my GitHub!

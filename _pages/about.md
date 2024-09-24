@@ -26,25 +26,24 @@ Recent Personal Projects
 
 Award
 ======
-Secured a prestigious [SBIR Phase I grant](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2309896) from the National Science Foundation along with my PhD Principal Investigator for pioneering an artificial intelligence system to enhance transparency and predict trends in democratic elections.
+Secured a prestigious [SBIR Phase I grant](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2309896) from the National Science Foundation along with my PhD Advisor for pioneering an artificial intelligence system to enhance transparency and predict trends in democratic elections.
 
 Work experience
 ======
-* Machine Learning Engineer - Contract (June 2024 - August 2024)
+* **Machine Learning Engineer - Contract** (June 2024 - August 2024)
   * Developed an industry-first dataset by leveraging AWS and Azure large language models (LLMs) to generate and augment data from movie scripts, enabling content extraction and analysis. Employed prompt engineering to minimize paraphrasing and ensure structured output in the desired JSON format. This dataset was subsequently used to fine-tune a custom Named-Entity Recognition (NER) transformer model, driving accuracy in entity recognition and establishing a new standard for movie script data processing.
  
-* Graduate Center of CUNY, PhD in Physics (Sept 2019 - August 2024)
-  * **Project: Bridging the gap between physics, network theory and neuro-science:**
-    * Collaborated with a multidisciplinary and international team to guide their sourcing of neural activity signals and preprocessing it resulting in an ETL pipeline leading to a prime dataset providing the basis for high quality research.
-    * Applied advanced concepts of graph theory to study the complex network of a worm's brain, leading to the identification of key structures responsible for synchronization and writing one of the first papers on how a particular type of network symmetry may lurk in the brain's structure. Calculations done via NetworkX and Pandas.
-  * **Project: A/B testing of optimal network repairing algorithms with statistical support:**
-    * Applied dozens of statistical measuring techniques on the dataset collected above to capture relational information, transformed each into a unique developed data structure, implemented various community detection algorithms on each, producing a plethora of options to be tested. Filtered results via p-value permutation tests and reproducibility of results to test robustness of the pipeline... [**(more in CV)**](/files/Bryant_Avila_CV.pdf)
+* **CUNY Graduate Center, Computational Research Assistant** (Sept 2019 - August 2024)
+  * Project: Bridging the gap between physics, network theory and neuro-science:
+    * Collaborated with a multidisciplinary and international team to guide their sourcing of neural activity signals and preprocessing, resulting in an ETL pipeline that provided a prime dataset for high-quality research.
+    * Applied advanced concepts of graph theory to study the complex network of a worm's brain, leading to the identification of key structures responsible for synchronization and writing one of the first papers on how a particular type of network symmetry may exist in the brain's structure. Calculations were done using NetworkX and Pandas.
+  * Project: A/B testing of optimal network repairing algorithms with statistical support:
+    * Applied numerous statistical measurement techniques to the dataset collected above to capture relational information. Transformed each into a uniquely developed data structure and implemented various community detection algorithms on each, producing a plethora of options to be tested. Filtered results via p-value permutation tests and reproducibility of results to test the robustness of the pipeline... [**(more in CV)**](/files/Bryant_Avila_CV.pdf)
 
-* Kcore Analytics, Data Analyst (Nov 2023 – April 2024)
-  * Built new calls not offered in the US census bureau python library via their API to retrieve demographic data on multiple resolution levels, stored data into custom SQL tables prior to GeoPandas calculations. Created a Selenium based web crawler tailored towards specific websites for data extraction.
-  * Implemented pre-trained transformers to do sentiment analysis on retrieved tweets, incorporating results with aforementioned population data to infer election outcomes via the training of multiple convolutional graph neural network models via PyTorch.
+* **Kcore Analytics, Data Analyst** (Nov 2023 – April 2024)
+  * Played a key role in a team that successfully designed and implemented an ETL pipeline to track and analyze electoral campaign performance in real-time, enabling data-driven decisions and improving outcome predictions. Leveraged U.S. Census Bureau data, extracted via APIs, to retrieve demographic information at multiple geographic levels. Preprocessed and aggregated this data using Spark and SQL for efficient storage, before performing geospatial analysis with GeoPandas. Integrated the processed data into convolutional graph neural networks, trained with PyTorch, to predict voting outcomes and monitor campaign performance.
 
-* Fashion Institute of Technology, Principal Lab Technician (Feb 2018 – Feb 2024)
+* **Fashion Institute of Technology, Lab Manager** (Feb 2018 – Feb 2024)
   * Administered a yearly budget of over $100K, ensuring efficient allocation towards upgrades, chemical and equipment purchasing, and training initiatives. Successfully captured internal funds to spearhead the integration of 3D printing technology in the classroom, enhancing the practical learning experience for students. Led and managed team of staff members.
   * Collaborated with faculty in pioneering the development of sustainable materials, including bacterial leather, alginate & mushroom fabrics, and mycelium wood. Conducted detailed characterization of biological samples using Scanning Electron Microscope (SEM), and diligently reported findings relevant for further advancement... [**(more experiences in my CV)**](/files/Bryant_Avila_CV.pdf)
 

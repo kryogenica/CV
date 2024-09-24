@@ -2,6 +2,7 @@
 title: "Unique Tensorflow architecture"
 excerpt: "Created a unique neural network architecture and tested its performance against other established architectures 🧠🕸️. <br/><img src='/images/loopyrnn.jpeg' width='50%'>"
 collection: portfolio
+order: 5
 ---
 
 The Google Colab notebook linkd below is focused on a research project involving several neural network models intendent to predict cryptocurrency prices. A brief overview of the key sections and activities are:

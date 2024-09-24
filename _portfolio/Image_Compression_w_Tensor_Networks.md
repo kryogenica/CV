@@ -2,6 +2,7 @@
 title: "Image Compression via Tensor Network"
 excerpt: "Comprehensive guide to using Matrix Product States for efficient image compression, leveraging TensorFlow and the Fashion-MNIST dataset. <br/><img src='/images/tensor-network-compression.png' width='50%'>"
 collection: portfolio
+order: 4
 ---
 
 Google Colab notebook linked below is about using **Matrix Product States (MPS)** for lossy image compression, based on a paper titled "[Tensor Networks for Image Compression](https://diposit.ub.edu/dspace/bitstream/2445/96365/1/TFG_Fis_Trujillo_Boque_Alex.pdf)" by Alex Trujillo Boque.
