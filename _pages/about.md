@@ -60,34 +60,38 @@ redirect_from:
         const learningRate = 0.1;
 
         async function loadData() {
-            // Simulate progress for data loading
             const progressBarFill = document.getElementById('progress-bar-fill');
 
-            // Step 1: Start loading Fashion-MNIST dataset.
-            const data = new fashion_mnist.FashionMNIST();
-            progressBarFill.style.width = "20%";
-            progressBarFill.textContent = "20%";
-            await new Promise(r => setTimeout(r, 200));  // Simulate delay
+            // Step 1: Load the Fashion-MNIST dataset from TensorFlow.js
+            const data = await tf.data
+                .loaders.fashionMnist()
+                .load();
+            progressBarFill.style.width = "40%";
+            progressBarFill.textContent = "40%";
 
-            // Step 2: Load the dataset.
-            await data.load();
-            progressBarFill.style.width = "60%";
-            progressBarFill.textContent = "60%";
-            await new Promise(r => setTimeout(r, 200));  // Simulate delay
+            // Step 2: Filter the dataset for Sneakers (7) and Boots (9)
+            const allImages = data.trainImages;
+            const allLabels = data.trainLabels;
+            
+            const sneakerIndices = [];
+            const bootIndices = [];
+            
+            for (let i = 0; i < allLabels.length; i++) {
+                if (allLabels[i] === 7) {
+                    sneakerIndices.push(i);
+                } else if (allLabels[i] === 9) {
+                    bootIndices.push(i);
+                }
+            }
 
-            // Step 3: Filter Sneakers (7) and Boots (9) data.
-            sneakerImages = data.train.filter(item => item.label === 7).map(item => item.image);
-            bootImages = data.train.filter(item => item.label === 9).map(item => item.image);
-            progressBarFill.style.width = "80%";
-            progressBarFill.textContent = "80%";
-            await new Promise(r => setTimeout(r, 200));  // Simulate delay
+            sneakerImages = sneakerIndices.map(index => allImages.slice(index * 28 * 28, (index + 1) * 28 * 28));
+            bootImages = bootIndices.map(index => allImages.slice(index * 28 * 28, (index + 1) * 28 * 28));
 
-            // Step 4: Data loaded successfully
-            datasetLoaded = true;
             progressBarFill.style.width = "100%";
             progressBarFill.textContent = "100%";
+            datasetLoaded = true;
 
-            // After loading the data, show a random image.
+            // After loading the data, show a random image
             showRandomImage();
         }
 
