@@ -8,7 +8,7 @@ redirect_from:
 ---
 <span style="font-size: smaller;">"*In God we trust; all others must bring data.*”<br>-- W. Edwards Deming (American statistician).</span>
 
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -26,6 +26,7 @@ redirect_from:
         <button onclick="testModel()">Test</button>
     </div>
     <p id="output"></p>
+    <p id="dataset-status">Dataset updates: 0</p>
 
     <script>
         let model;
@@ -34,6 +35,7 @@ redirect_from:
         let currentImage = null;
         let currentLabel = null;
         let datasetLoaded = false;
+        let datasetUpdates = 0;  // Counter for dataset updates
         const learningRate = 0.1;
 
         async function loadData() {
@@ -96,6 +98,10 @@ redirect_from:
             await model.fit(imageTensor, tf.tensor1d([imageLabel], 'int32'), {
                 epochs: 1
             });
+
+            // Update the dataset updates counter
+            datasetUpdates++;
+            document.getElementById('dataset-status').textContent = `Dataset updates: ${datasetUpdates}`;
 
             // Show a new random image
             showRandomImage();
