@@ -67,7 +67,8 @@ Publications
 ======
 * Khayat R, Avila B, et al. [“Porcine circovirus 2 uses a multitude of weak binding sites to interact with heparan sulfate, and the interactions do not follow the symmetry of the capsin.”](https://jvi.asm.org/content/93/6/e02222-18)  Journal of Virology. 2019.
 * Khayat R, Avila B, et al. [“Cryo-electron microscopy structure of the 70S ribosome from Enterococcus faecalis.”](https://www.nature.com/articles/s41598-020-73199-6) Nature. 2020.
-* Avila B, et al. [“Fibration symmetries and cluster synchronization in the Caenorhabditis elegans connectome.”](https://arxiv.org/abs/2305.19367) PLOS One 2024.
+* Avila B, et al. [“Fibration symmetries and cluster synchronization in the Caenorhabditis elegans connectome.”](https://arxiv.org/abs/2305.19367) Plos One 2024.
 * Tommasone M, Avila B, et al. [“Scale-up of Dry Impregnation Processes for Porous Spherical Catalyst Particles in a Rotating Drum:
 Experiments and Simulations.”](https://arxiv.org/abs/2307.14444) preprint arXiv:2307:1444, Granular Matter (submitted August 2023).
-* Avila B, et al. [“Fibration symmetry-breaking supports functional transitions in a brain network engaged in language.”](https://www.researchsquare.com/article/rs-4409330/v1) (Submitted to  Nature on June 2024).
+* Tommaso Gili, et al. [“Fibration symmetry-breaking supports functional transitions in a brain network engaged in language.”](https://www.researchsquare.com/article/rs-4409330/v1) (Submitted to Nature on June 2024).
+* Avila B, et al. [“Symmetries and synchronization from whole-neural activity in C. elegans connectome: Integration of functional and structural networks.”](https://arxiv.org/abs/2409.02682) (Submitted to Plos One on August 2024).
