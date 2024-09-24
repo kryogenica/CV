@@ -21,22 +21,12 @@ Recent Personal Projects
 ======
 * [**Open-Forecast**](https://open-forecast.streamlit.app/)
   * A fintech web app built with Streamlit, designed to forecast stock prices using machine learning. It analyzes pre-market data to predict price trends.
-* [**Contextual Search Tool**](https://github.com/kryogenica/Contextual_Search_Tool)
+* [**Contextual Search: A RAG Tool**](https://github.com/kryogenica/Contextual_Search_Tool)
   * A search engine powered by a fine-tuned DistilBERT model that enables contextual searches within movie scripts. This tool uses Python scripts for scene extraction and embedding generation.
 
 Award
 ======
 Secured a prestigious [SBIR Phase I grant](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2309896) from the National Science Foundation along with my PhD Principal Investigator for pioneering an artificial intelligence system to enhance transparency and predict trends in democratic elections.
-
-Education
-======
-* PhD in Physics - Graduate Center of the City University of New York - Writting Thesis
-  * Advisors: [Hernan Makse](https://hmakse.ccny.cuny.edu/), [Manuel Zimmer](https://www.imp.ac.at/groups/manuel-zimmer)
-* M.S. in Physics - Graduate Center of the City University of New York - Feb 2023
-  * Advisors: [Hernan Makse](https://hmakse.ccny.cuny.edu/), [David Phillips](https://www.usna.edu/Users/math/dphillip/)
-* B.S. in Physics - City College of New York - Feb 2016
-  * Cum Laude and Research honors
-  * Advisors: [Carlos Meriles](https://cmeriles.ccny.cuny.edu/), [Brain Tiburzi](https://www.gc.cuny.edu/people/brian-c-tiburzi)  
 
 Work experience
 ======
@@ -57,6 +47,16 @@ Work experience
 * Fashion Institute of Technology, Principal Lab Technician (Feb 2018 – Feb 2024)
   * Administered a yearly budget of over $100K, ensuring efficient allocation towards upgrades, chemical and equipment purchasing, and training initiatives. Successfully captured internal funds to spearhead the integration of 3D printing technology in the classroom, enhancing the practical learning experience for students. Led and managed team of staff members.
   * Collaborated with faculty in pioneering the development of sustainable materials, including bacterial leather, alginate & mushroom fabrics, and mycelium wood. Conducted detailed characterization of biological samples using Scanning Electron Microscope (SEM), and diligently reported findings relevant for further advancement... [**(more experiences in my CV)**](/files/Bryant_Avila_CV.pdf)
+
+Education
+======
+* PhD in Physics - Graduate Center of the City University of New York - Writting Thesis
+  * Advisors: [Hernan Makse](https://hmakse.ccny.cuny.edu/), [Manuel Zimmer](https://www.imp.ac.at/groups/manuel-zimmer)
+* M.S. in Physics - Graduate Center of the City University of New York - Feb 2023
+  * Advisors: [Hernan Makse](https://hmakse.ccny.cuny.edu/), [David Phillips](https://www.usna.edu/Users/math/dphillip/)
+* B.S. in Physics - City College of New York - Feb 2016
+  * Cum Laude and Research honors
+  * Advisors: [Carlos Meriles](https://cmeriles.ccny.cuny.edu/), [Brain Tiburzi](https://www.gc.cuny.edu/people/brian-c-tiburzi)
 
 Skills
 ======
