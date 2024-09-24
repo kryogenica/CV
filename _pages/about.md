@@ -8,7 +8,7 @@ redirect_from:
 ---
 <span style="font-size: smaller;">"*In God we trust; all others must bring data.*”<br>-- W. Edwards Deming (American statistician).</span>
 
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -16,9 +16,30 @@ redirect_from:
     <title>Train Neural Network - Fashion-MNIST</title>
     <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
     <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-vis"></script>
+    <style>
+        #progress-bar {
+            width: 100%;
+            background-color: #f3f3f3;
+        }
+
+        #progress-bar-fill {
+            height: 30px;
+            width: 0;
+            background-color: #4caf50;
+            text-align: center;
+            line-height: 30px;
+            color: white;
+        }
+    </style>
 </head>
 <body>
     <h1>Train a Neural Network to Classify Sneakers and Boots</h1>
+    
+    <!-- Progress Bar for Dataset Loading -->
+    <div id="progress-bar">
+        <div id="progress-bar-fill">0%</div>
+    </div>
+
     <canvas id="image-canvas" width="28" height="28"></canvas>
     <div>
         <button onclick="labelImage('sneaker')">Sneaker</button>
@@ -39,16 +60,34 @@ redirect_from:
         const learningRate = 0.1;
 
         async function loadData() {
-            // Load the Fashion-MNIST data.
-            const data = new fashion_mnist.FashionMNIST();
-            await data.load();
-            datasetLoaded = true;
+            // Simulate progress for data loading
+            const progressBarFill = document.getElementById('progress-bar-fill');
 
-            // Filter to get only sneakers (7) and boots (9)
+            // Step 1: Start loading Fashion-MNIST dataset.
+            const data = new fashion_mnist.FashionMNIST();
+            progressBarFill.style.width = "20%";
+            progressBarFill.textContent = "20%";
+            await new Promise(r => setTimeout(r, 200));  // Simulate delay
+
+            // Step 2: Load the dataset.
+            await data.load();
+            progressBarFill.style.width = "60%";
+            progressBarFill.textContent = "60%";
+            await new Promise(r => setTimeout(r, 200));  // Simulate delay
+
+            // Step 3: Filter Sneakers (7) and Boots (9) data.
             sneakerImages = data.train.filter(item => item.label === 7).map(item => item.image);
             bootImages = data.train.filter(item => item.label === 9).map(item => item.image);
-            
-            // Randomly pick an image to start with
+            progressBarFill.style.width = "80%";
+            progressBarFill.textContent = "80%";
+            await new Promise(r => setTimeout(r, 200));  // Simulate delay
+
+            // Step 4: Data loaded successfully
+            datasetLoaded = true;
+            progressBarFill.style.width = "100%";
+            progressBarFill.textContent = "100%";
+
+            // After loading the data, show a random image.
             showRandomImage();
         }
 
