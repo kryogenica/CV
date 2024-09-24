@@ -8,100 +8,119 @@ redirect_from:
 ---
 <span style="font-size: smaller;">"*In God we trust; all others must bring data.*”<br>-- W. Edwards Deming (American statistician).</span>
 
-<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
-<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-vis"></script>
-<script>
-  async function loadAndPrepareData() {
-    const data = new fashion_mnist.FashionMNIST();
-    await data.load();
-    const classNames = ['Sneaker', 'Sandal'];
-    const trainData = data.nextTrainBatch(60000);
-    const testData = data.nextTestBatch(10000);
 
-    const filterData = (data, label) => {
-      const indices = data.labels.argMax(-1).equal(tf.scalar(label)).where().squeeze();
-      return {
-        images: data.images.gather(indices),
-        labels: data.labels.gather(indices)
-      };
-    };
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Train Neural Network - Fashion-MNIST</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-vis"></script>
+</head>
+<body>
+    <h1>Train a Neural Network to Classify Sneakers and Boots</h1>
+    <canvas id="image-canvas" width="28" height="28"></canvas>
+    <div>
+        <button onclick="labelImage('sneaker')">Sneaker</button>
+        <button onclick="labelImage('boot')">Boot</button>
+        <button onclick="testModel()">Test</button>
+    </div>
+    <p id="output"></p>
 
-    const sneakers = filterData(trainData, 7);
-    const sandals = filterData(trainData, 5);
+    <script>
+        let model;
+        let sneakerImages = [];
+        let bootImages = [];
+        let currentImage = null;
+        let currentLabel = null;
+        let datasetLoaded = false;
+        const learningRate = 0.1;
 
-    return { sneakers, sandals, classNames };
-  }
+        async function loadData() {
+            // Load the Fashion-MNIST data.
+            const data = new fashion_mnist.FashionMNIST();
+            await data.load();
+            datasetLoaded = true;
 
-  async function createModel() {
-    const model = tf.sequential();
-    model.add(tf.layers.flatten({ inputShape: [28, 28, 1] }));
-    model.add(tf.layers.dense({ units: 42, activation: 'relu' }));
-    model.add(tf.layers.dense({ units: 2, activation: 'softmax' }));
-    model.compile({
-      optimizer: tf.train.adam(0.001),
-      loss: 'categoricalCrossentropy',
-      metrics: ['accuracy']
-    });
-    return model;
-  }
+            // Filter to get only sneakers (7) and boots (9)
+            sneakerImages = data.train.filter(item => item.label === 7).map(item => item.image);
+            bootImages = data.train.filter(item => item.label === 9).map(item => item.image);
+            
+            // Randomly pick an image to start with
+            showRandomImage();
+        }
 
-  async function trainModel(model, data, label) {
-    const xs = data.images.reshape([data.images.shape[0], 28, 28, 1]);
-    const ys = tf.oneHot(tf.tensor1d([label], 'int32'), 2);
-    await model.fit(xs, ys, { epochs: 1 });
-  }
+        function createModel() {
+            // Create a simple neural network model
+            model = tf.sequential();
+            model.add(tf.layers.flatten({inputShape: [28, 28, 1]}));
+            model.add(tf.layers.dense({units: 32, activation: 'relu'}));
+            model.add(tf.layers.dense({units: 2, activation: 'softmax'}));
+            model.compile({
+                optimizer: tf.train.adam(learningRate),
+                loss: 'sparseCategoricalCrossentropy',
+                metrics: ['accuracy']
+            });
+        }
 
-  async function predict(model, data) {
-    const xs = data.images.reshape([1, 28, 28, 1]);
-    const prediction = model.predict(xs);
-    const label = prediction.argMax(-1).dataSync()[0];
-    const confidence = prediction.max().dataSync()[0];
-    return { label, confidence };
-  }
+        function showRandomImage() {
+            if (!datasetLoaded) return;
 
-  async function setup() {
-    const { sneakers, sandals, classNames } = await loadAndPrepareData();
-    const model = await createModel();
-    let currentImage, currentLabel;
+            // Randomly pick a sneaker or a boot
+            const isSneaker = Math.random() < 0.5;
+            currentImage = isSneaker ? sneakerImages[Math.floor(Math.random() * sneakerImages.length)] : bootImages[Math.floor(Math.random() * bootImages.length)];
+            currentLabel = isSneaker ? 0 : 1; // 0 for sneaker, 1 for boot
 
-    function showImage(image) {
-      const canvas = document.getElementById('canvas');
-      tf.browser.toPixels(image.reshape([28, 28, 1]), canvas);
-    }
+            // Show the image in the canvas
+            const canvas = document.getElementById('image-canvas');
+            const ctx = canvas.getContext('2d');
+            const imageData = ctx.createImageData(28, 28);
+            for (let i = 0; i < 28 * 28; i++) {
+                const color = currentImage[i] * 255;
+                imageData.data[i * 4] = color;
+                imageData.data[i * 4 + 1] = color;
+                imageData.data[i * 4 + 2] = color;
+                imageData.data[i * 4 + 3] = 255;
+            }
+            ctx.putImageData(imageData, 0, 0);
+        }
 
-    function getRandomImage() {
-      const isSneaker = Math.random() > 0.5;
-      currentImage = isSneaker ? sneakers.images.slice([Math.floor(Math.random() * sneakers.images.shape[0]), 0], [1, 784]) : sandals.images.slice([Math.floor(Math.random() * sandals.images.shape[0]), 0], [1, 784]);
-      currentLabel = isSneaker ? 0 : 1;
-      showImage(currentImage);
-    }
+        async function labelImage(label) {
+            // Convert the image to a tensor
+            const imageTensor = tf.tensor4d(currentImage, [1, 28, 28, 1]);
 
-    document.getElementById('sneaker').addEventListener('click', async () => {
-      await trainModel(model, { images: currentImage }, 0);
-      getRandomImage();
-    });
+            // Label 0 for sneaker, 1 for boot
+            const imageLabel = label === 'sneaker' ? 0 : 1;
 
-    document.getElementById('sandal').addEventListener('click', async () => {
-      await trainModel(model, { images: currentImage }, 1);
-      getRandomImage();
-    });
+            // Train the model
+            await model.fit(imageTensor, tf.tensor1d([imageLabel], 'int32'), {
+                epochs: 1
+            });
 
-    document.getElementById('test').addEventListener('click', async () => {
-      const testImage = Math.random() > 0.5 ? sneakers.images.slice([Math.floor(Math.random() * sneakers.images.shape[0]), 0], [1, 784]) : sandals.images.slice([Math.floor(Math.random() * sandals.images.shape[0]), 0], [1, 784]);
-      const { label, confidence } = await predict(model, { images: testImage });
-      alert(`Prediction: ${classNames[label]}, Confidence: ${(confidence * 100).toFixed(2)}%`);
-    });
+            // Show a new random image
+            showRandomImage();
+        }
 
-    getRandomImage();
-  }
+        async function testModel() {
+            // Pick a random test image (sneaker or boot)
+            showRandomImage();
 
-  setup();
-</script>
+            // Convert the current image to tensor and predict
+            const imageTensor = tf.tensor4d(currentImage, [1, 28, 28, 1]);
+            const prediction = model.predict(imageTensor);
+            const predictedLabel = (await prediction.argMax(-1).data())[0];
+            const confidence = (await prediction.max(-1).data())[0];
 
-<canvas id="canvas" width="28" height="28"></canvas>
-<button id="sneaker">Sneaker</button>
-<button id="sandal">Sandal</button>
-<button id="test">Test</button>
+            const labelText = predictedLabel === 0 ? 'Sneaker' : 'Boot';
+            document.getElementById('output').textContent = `Predicted: ${labelText} (Confidence: ${(confidence * 100).toFixed(2)}%)`;
+        }
+
+        // Load the dataset and initialize the model
+        loadData();
+        createModel();
+    </script>
+</body>
+</html>
 
 
 Research Interests
