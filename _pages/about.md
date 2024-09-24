@@ -19,7 +19,7 @@ Research Interests
 
 Recent Personal Projects
 ======
-* [**Open-Forecast**](https://open-forecast.streamlit.app/)
+* [**Open-Forecast: A FinTech Tool**](https://open-forecast.streamlit.app/)
   * A fintech web app built with Streamlit, designed to forecast stock prices using machine learning. It analyzes pre-market data to predict price trends.
 * [**Contextual Search: A RAG Tool**](https://github.com/kryogenica/Contextual_Search_Tool)
   * A search engine powered by a fine-tuned DistilBERT model that enables contextual searches within movie scripts. This tool uses Python scripts for scene extraction and embedding generation.
