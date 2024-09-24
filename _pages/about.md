@@ -11,10 +11,10 @@ redirect_from:
 Research Interests
 ======
 * Data science, data analysis, and data reporting.
+* NLP, NLU, LLMops, embedding spaces, RAG systems.
 * Machine learning, specially graph neural networks.
 * Reinforcement learning & integer linear programming optimization.
 * Brain, financial, social, & car-traffic networks.
-* Simulating complex systems / physics through equations.
 * Infereing network structure from its dynamics 🕸️ &harr; 〰️.
 
 Recent Personal Projects
