@@ -11,7 +11,7 @@ Interactive Machine Learning Demo
 ======
 Explore a simple interactive demo of a machine learning model in action. This demo uses TensorFlow.js to run directly in your browser, allowing you to see how a neural network learns to classify data.
 
-```html
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -41,7 +41,6 @@ Explore a simple interactive demo of a machine learning model in action. This de
   </script>
 </body>
 </html>
-```
 
 This demo trains a simple linear regression model to predict the output for a given input. Click the button to see the model in action!
 Research Interests
