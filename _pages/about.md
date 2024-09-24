@@ -7,7 +7,43 @@ redirect_from:
   - /about.html
 ---
 <span style="font-size: smaller;">"*In God we trust; all others must bring data.*”<br>-- W. Edwards Deming (American statistician).</span>
+Interactive Machine Learning Demo
+======
+Explore a simple interactive demo of a machine learning model in action. This demo uses TensorFlow.js to run directly in your browser, allowing you to see how a neural network learns to classify data.
 
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Interactive ML Demo</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+</head>
+<body>
+  <h2>Interactive Machine Learning Demo</h2>
+  <p>Click the button below to train a simple neural network to classify data.</p>
+  <button onclick="trainModel()">Train Model</button>
+  <div id="output"></div>
+
+  <script>
+    async function trainModel() {
+      const model = tf.sequential();
+      model.add(tf.layers.dense({units: 1, inputShape: [1]}));
+      model.compile({loss: 'meanSquaredError', optimizer: 'sgd'});
+
+      const xs = tf.tensor2d([1, 2, 3, 4], [4, 1]);
+      const ys = tf.tensor2d([1, 3, 5, 7], [4, 1]);
+
+      await model.fit(xs, ys, {epochs: 500});
+
+      const output = model.predict(tf.tensor2d([5], [1, 1]));
+      document.getElementById('output').innerText = `Prediction for input 5: ${output.dataSync()}`;
+    }
+  </script>
+</body>
+</html>
+```
+
+This demo trains a simple linear regression model to predict the output for a given input. Click the button to see the model in action!
 Research Interests
 ======
 * Data science, data analysis, and data reporting.
